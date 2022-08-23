@@ -996,6 +996,20 @@ body {
   }
 }
 
+@media (min-width: 47.99875em) and (min-width: 62em) {
+  .how__content {
+    padding-right: 5.9375rem;
+  }
+
+  .pathway__content {
+    padding-left: 7.875rem;
+  }
+
+  .why__content {
+    padding-right: 11.0625rem;
+  }
+}
+
 @media (min-width: 61.99875em) {
   .button {
     min-width: 8.875rem;
@@ -1241,20 +1255,6 @@ body {
 @media (min-width: 48em) {
   .header__logo {
     width: 8.9375rem;
-  }
-}
-
-@media (min-width: 62em) {
-  .how__content {
-    padding-right: 5.9375rem;
-  }
-
-  .pathway__content {
-    padding-left: 7.875rem;
-  }
-
-  .why__content {
-    padding-right: 11.0625rem;
   }
 }
 
@@ -1690,6 +1690,19 @@ body {
     text-align: center;
   }
 
+  .steps-how__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
   .pathway__content {
     text-align: center;
     padding-left: 0;
@@ -1726,19 +1739,6 @@ body {
 
   .how__title {
     text-align: center;
-  }
-
-  .steps-how__item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 
   .spollers-pathway__title {
@@ -1782,20 +1782,6 @@ body {
 @media (max-width: 0.0625em) {
   .header__logo {
     width: 7.5rem;
-  }
-}
-
-@media (max-width: 0.125em) {
-  .how__content {
-    padding-right: 1.875rem;
-  }
-
-  .pathway__content {
-    padding-left: 1.875rem;
-  }
-
-  .why__content {
-    padding-right: 1.875rem;
   }
 }
 
@@ -2530,7 +2516,7 @@ body {
   }
 }
 
-@media (min-width: 0.125em) and (max-width: 62em) {
+@media (min-width: 47.99875em) and (min-width: 0.125em) and (max-width: 62em) {
 @supports (padding-right: clamp( 1.875rem , 1.8667929293rem  +  6.5656565657vw , 5.9375rem )) {
     .how__content {
       padding-right: clamp( 1.875rem , 1.8667929293rem  +  6.5656565657vw , 5.9375rem );
@@ -2566,6 +2552,20 @@ body {
       padding-right: calc(1.875rem + 9.1875 * (100vw - 0.125rem) / 61.875);
     }
 }
+}
+
+@media (min-width: 47.99875em) and (max-width: 0.125em) {
+  .how__content {
+    padding-right: 1.875rem;
+  }
+
+  .pathway__content {
+    padding-left: 1.875rem;
+  }
+
+  .why__content {
+    padding-right: 1.875rem;
+  }
 }
 
 @media (any-hover: hover) {
